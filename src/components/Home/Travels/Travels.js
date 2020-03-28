@@ -18,7 +18,7 @@ const travels = (props) => {
     }
 
     return (
-        <Grid className="nji-temp" container spacing={5}>
+        <Grid className="nji-temp nji-images" container spacing={5}>
             {generateImages()}
         </Grid>
     );

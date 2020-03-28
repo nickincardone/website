@@ -44,4 +44,7 @@
     width: 100%;
     text-align: center;
   }
+  @media (max-width: 600px) {
+    margin-bottom: -20px;
+  }
 }

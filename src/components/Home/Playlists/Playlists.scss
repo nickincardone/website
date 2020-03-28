@@ -28,4 +28,9 @@
     height: calc(100% - 7px);
     width: 100%;
   }
+  @media (max-width: 600px) {
+    .MuiGrid-item {
+      margin-bottom: -20px;
+    }
+  }
 }

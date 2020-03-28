@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import "./TravelImage.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import {Hidden} from "@material-ui/core";
 
 const travelImage = (props) => {
     let size = 4;
@@ -14,7 +15,7 @@ const travelImage = (props) => {
         size = 12
     }
 
-    return (
+    const innerGridItem = (
         <Grid item sm={size}>
             <div className="nji-travel-image">
                 <LazyLoadImage alt={props.image.location + ": " + props.image.altText} src={props.image.src} effect="blur"/>
@@ -27,6 +28,13 @@ const travelImage = (props) => {
             </div>
         </Grid>
     );
+
+    if (size===12) {
+        return (
+            <Hidden xsDown>{innerGridItem}</Hidden>
+        )
+    }
+    return innerGridItem;
 };
 
 export default travelImage;

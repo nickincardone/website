@@ -18,5 +18,16 @@
       background-color: #4B8188;
     }
   }
+
+  @media (max-width: 600px) {
+    .MuiBox-root {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    padding-top: 20px;
+    hr {
+      margin-top: 30px;
+    }
+  }
 }
 
