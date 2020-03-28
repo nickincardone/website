@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import {Email} from "@material-ui/icons";
+import {Email, GitHub} from "@material-ui/icons";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import './Resume.scss';
 import resumeData from '../../../resume';
@@ -17,7 +17,8 @@ const resume = (props) => {
                     <Grid item sm={12} className="nji-resume-about">
                         <Typography variant="h6">Contact</Typography>
                         <div><Typography variant="body1"><Email className="bottom-border"/><b>{resumeData.contact.email}</b></Typography></div>
-                        <div><Typography variant="body1"><LinkedIn/><a href={resumeData.contact.linkedIn}>LinkedIn</a></Typography></div>
+                        <div><Typography variant="body1"><LinkedIn className="bottom-border"/><a href={resumeData.contact.linkedIn}>LinkedIn</a></Typography></div>
+                        {/*<div><Typography variant="body1"><GitHub/><a href={resumeData.contact.github}>GitHub</a></Typography></div>*/}
                     </Grid>
                 </Grid>
             </Grid>

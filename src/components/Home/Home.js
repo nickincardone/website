@@ -71,6 +71,7 @@ function Home() {
             <TabPanel value={value} index={2}>
                 <Resume resume={resumeData}/>
             </TabPanel>
+            <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website created by me with React. See the code <a href="https://github.com/nickincardone/website">here</a>.</Typography>
         </Container>
     );
 };

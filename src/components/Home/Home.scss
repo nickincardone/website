@@ -19,6 +19,12 @@
     }
   }
 
+  .nji-bottom-message {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 25px;
+  }
+
   @media (max-width: 600px) {
     .MuiBox-root {
       padding-left: 10px;
