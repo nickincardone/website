@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9c82be-41ff-44a7-a91b-bb78e4aaa814" name="Default Changelist" comment="" />
+    <list default="true" id="5e9c82be-41ff-44a7-a91b-bb78e4aaa814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/1_h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/2_h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/3_v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/4_v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/5_v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/6_p.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZNPzargMOuZIUt009G6ibKTfLC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -68,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584676842057</updated>
       <workItem from="1584676843299" duration="6872000" />
-      <workItem from="1584814885438" duration="39621000" />
+      <workItem from="1584814885438" duration="39920000" />
     </task>
     <servers />
   </component>
