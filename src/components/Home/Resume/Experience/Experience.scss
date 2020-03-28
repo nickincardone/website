@@ -1,0 +1,38 @@
+.nji-main .nji-resume {
+  .nji-resume-exp {
+    background-color: inherit;
+    padding: 20px 0 0;
+
+    h6 {
+      color: black;
+    }
+
+    .MuiStepIcon-root {
+      color: #EC7263;
+      margin-top: -20px;
+    }
+
+    .MuiStepConnector-vertical {
+      margin-top: -24px;
+    }
+
+    .MuiSvgIcon-root circle {
+      r:6;
+    }
+
+    .MuiStepIcon-root circle {
+      color: black;
+      fill: black;
+      r: 6;
+    }
+
+    ul {
+      margin-top: 0;
+    }
+
+    .MuiStepIcon-root text {
+      color: black;
+      fill: black;
+    }
+  }
+}

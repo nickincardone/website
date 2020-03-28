@@ -1,0 +1,22 @@
+.nji-main {
+  padding-top: 30px;
+  background-color: #fafafa;
+
+  hr {
+    margin-top: 50px;
+  }
+
+  .nji-main-tab {
+    background-color: inherit;
+    border: none;
+
+    .MuiTab-textColorPrimary.Mui-selected {
+      color: black;
+    }
+
+    .MuiTabs-indicator {
+      background-color: #4B8188;
+    }
+  }
+}
+

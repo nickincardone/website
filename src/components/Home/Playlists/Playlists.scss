@@ -1,0 +1,31 @@
+.nji-main .nji-playlists {
+  iframe {
+    bottom: 30px;
+    height: 100%;
+    width: 100%;
+    min-height: 175px;
+  }
+
+  h4 {
+    color: #EC7263;
+    text-transform: uppercase;
+  }
+
+  .nji-playlists-chips {
+    margin-top: 20px;
+  }
+
+  .nji-relative {
+    position: relative;
+  }
+
+  hr {
+    margin: 0px;
+  }
+
+  .MuiSkeleton-root {
+    position: absolute;
+    height: calc(100% - 7px);
+    width: 100%;
+  }
+}

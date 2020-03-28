@@ -1,0 +1,101 @@
+.nji-main .nji-resume {
+  .nji-resume-exp {
+    background-color: inherit;
+    padding: 20px 0 0;
+
+    h6 {
+      color: black;
+    }
+
+    .MuiStepIcon-root {
+      color: #EC7263;
+      margin-top: -20px;
+    }
+
+    .MuiStepConnector-vertical {
+      margin-top: -24px;
+    }
+
+    .MuiStepIcon-root circle {
+      color: black;
+      fill: black;
+      r: 6;
+    }
+
+    ul {
+      margin-top: 0;
+    }
+
+    .MuiStepIcon-root text {
+      color: black;
+      fill: black;
+    }
+  }
+
+  .nji-resume-about svg {
+    vertical-align: middle;
+    border-right: solid #d7d7d7 1px;
+    border-left: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: #d7d7d7;
+    fill: #d7d7d7;
+
+    &.bottom-border {
+      border-bottom: solid #d7d7d7 1px;
+    }
+  }
+
+  .top-margin {
+    margin-top: 20px;
+  }
+
+  h6 {
+    color: #EC7263;
+    text-transform: uppercase;
+  }
+  .nji-resume-other {
+    div > ul > li::before {
+      display: none;
+    }
+    ul {
+      position: relative;
+      li {
+        position: relative;
+        &:first-child::after {
+          top: 10px;
+        }
+        &::before, &::after {
+          content: "";
+          position: absolute;
+        }
+        &::before {
+          border-top: 1px solid #000;
+          top: 11px;
+          width: 30px;
+          height: 0;
+          left: -48px;
+        }
+        &::after {
+          border-left: 1px solid #000;
+          height: 100%;
+          width: 0px;
+          top: 2px;
+          left: -15px;
+        }
+        &:last-child::after {
+          height: 8px;
+        }
+        ul {
+          position: relative;
+          margin-left: -7px;
+          li {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
