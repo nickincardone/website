@@ -6,8 +6,6 @@ import Step from "@material-ui/core/Step";
 import {Stepper} from "@material-ui/core";
 import './Experience.scss';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
-import resumeData from "../../../../resume";
-import Grid from "@material-ui/core/Grid";
 
 const experience = (props) => {
 

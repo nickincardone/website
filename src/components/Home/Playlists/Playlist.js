@@ -21,20 +21,6 @@ const playlist = (props) => {
         );
     }
 
-    function Iframe(uri) {
-        return (
-            <Grid item sm={4} >
-                <div className="nji-relative">
-                    <Skeleton variant="rect" animation="wave"/>
-                    <iframe src={"https://open.spotify.com/embed/playlist/" + uri} width="300"
-                            height="380" frameBorder="0" allowTransparency="true"
-                            allow="encrypted-media"
-                            title={uri}/>
-                </div>
-            </Grid>
-        );
-    }
-
     function hiddenOnXs(uri) {
         return (
             <Hidden xsDown>

@@ -3,24 +3,13 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import {Email} from "@material-ui/icons";
 import LinkedIn from "@material-ui/icons/LinkedIn";
-import {Stepper} from "@material-ui/core";
-import Step from "@material-ui/core/Step";
-import StepLabel from "@material-ui/core/StepLabel";
 import './Resume.scss';
 import resumeData from '../../../resume';
 import Experience from "./Experience/Experience";
-import StepContent from "@material-ui/core/StepContent";
 import OtherSkills from "./OtherSkills/OtherSkills";
 
 const resume = (props) => {
 
-    function generateExperience() {
-        return resumeData.experience.map((job, index) => {
-            return (
-                <Experience experience={job} key={index}/>
-            )
-        })
-    }
     return (
         <Grid container className="nji-resume">
             <Grid item sm={6}>
