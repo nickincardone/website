@@ -52,7 +52,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/7_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -60,7 +60,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/8_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -68,7 +68,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/9_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -76,7 +76,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/10_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -84,7 +84,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/13_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -92,7 +92,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/18_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "La Cumbrecita, Argentina",
         "date": ""
     },
     {
@@ -100,7 +100,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/19_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Buenos Aires, Argentina",
         "date": ""
     },
     {
@@ -108,7 +108,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/11_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -116,7 +116,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/12_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Volcán Acatenango, Guatemala",
         "date": ""
     },
     {
@@ -124,7 +124,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/14_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Lake Atitlán, Guatemala",
         "date": ""
     },
     {
@@ -132,7 +132,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/15_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Lake Atitlán, Guatemala",
         "date": ""
     },
     {
@@ -140,7 +140,7 @@ const images = [
         "type": 3,
         "src": "http://nickincardone.com/images/51_p.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -148,7 +148,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/16_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Lake Atitlán, Guatemala",
         "date": ""
     },
     {
@@ -156,7 +156,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/17_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Lake Atitlán, Guatemala",
         "date": ""
     },
     {
@@ -164,7 +164,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/21_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Puerto Natales, Chile",
         "date": ""
     },
     {
@@ -172,7 +172,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/22_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -180,7 +180,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/23_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -188,7 +188,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/25_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -196,7 +196,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/20_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Puerto Natales, Chile",
         "date": ""
     },
     {
@@ -204,7 +204,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/24_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -212,7 +212,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/29_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -220,7 +220,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/26_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -228,7 +228,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/27_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -236,7 +236,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/28_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -244,7 +244,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/32_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -252,7 +252,7 @@ const images = [
         "type": 3,
         "src": "http://nickincardone.com/images/52_p.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -260,7 +260,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/34_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -268,7 +268,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/35_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -276,7 +276,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/37_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -284,7 +284,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/38_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -292,7 +292,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/30_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -300,7 +300,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/31_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -308,7 +308,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/33_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -316,7 +316,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/39_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -324,7 +324,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/40_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -332,7 +332,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/41_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -340,7 +340,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/42_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -348,7 +348,7 @@ const images = [
         "type": 3,
         "src": "http://nickincardone.com/images/53_p.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -356,7 +356,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/43_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -364,7 +364,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/46_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -372,7 +372,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/36_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -380,7 +380,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/44_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -388,7 +388,7 @@ const images = [
         "type": 1,
         "src": "http://nickincardone.com/images/47_v.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -396,7 +396,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/48_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
     {
@@ -404,7 +404,7 @@ const images = [
         "type": 2,
         "src": "http://nickincardone.com/images/49_h.jpg",
         "altText": "",
-        "location": "",
+        "location": "Torres del Paine, Chile",
         "date": ""
     },
 ];

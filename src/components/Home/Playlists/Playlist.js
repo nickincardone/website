@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import Skeleton from '@material-ui/lab/Skeleton';
 import {Hidden} from "@material-ui/core";
+import tagData from "../../../tags";
 
 const playlist = (props) => {
 
@@ -37,6 +38,17 @@ const playlist = (props) => {
         )
     }
 
+    function generateChips(tags) {
+        return tags.map((tag, index) => {
+            const tagInfo = tagData.find(data => {
+                return tag === data.id;
+            });
+            return (
+                <Chip key={index} variant="outlined" size="small" label={tagInfo.name}/>
+            );
+        })
+    }
+
     return (
         <React.Fragment>
             {props.even ? Iframe(props.playlist.spotifyURI) : showOnXs(props.playlist.spotifyURI)}
@@ -45,10 +57,7 @@ const playlist = (props) => {
                 <Typography variant="body1">{props.playlist.description}</Typography>
                 <Grid container className="nji-playlists-chips">
                     <Grid item sm={12}>
-                        <Chip variant="outlined" size="small" label="Chill"/>
-                        <Chip variant="outlined" size="small" label="Indie"/>
-                        <Chip variant="outlined" size="small" label="Indietronica"/>
-                        <Chip variant="outlined" size="small" label="Trip Rock"/>
+                        {generateChips(props.playlist.tags)}
                     </Grid>
                 </Grid>
             </Grid>

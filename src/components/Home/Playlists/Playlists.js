@@ -19,8 +19,8 @@ const playlists = (props) => {
             playlistsArray.map((playlist, index) => {
                 const isEven = index % 2 === 0;
                 return (
-                    <React.Fragment>
-                        <Playlist key={playlist.id} even={isEven} playlist={playlist}/>
+                    <React.Fragment key={playlist.id}>
+                        <Playlist even={isEven} playlist={playlist}/>
                         {index + 1 === playlistsArray.length ? null : hrBlock()}
                     </React.Fragment>
                 )

@@ -7,7 +7,7 @@ const playlists = [
             "                    Impala, and Nicola Cruz. Part of an ongoing series of playlist to keep track of my listening habits\n" +
             "                    over time.",
         "spotifyURI": "4VbUfHyNZhcCUBFzjdoYWN",
-        "tags": []
+        "tags": [1,2,3,4,5,6,7,8,10,11,16]
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@ const playlists = [
             " down the drain). Including new releases I loved from Tame Impala, Kaytranada, and Nicola Cruz. Part of an" +
             " ongoing series to track my music taste over time.",
         "spotifyURI": "7DUatmUClN658xvmLgn4Hw",
-        "tags": []
+        "tags": [1,2,3,4,8,9,10,11,15,16]
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@ const playlists = [
             "(ok maybe 4). Great for lounging around the house or a pool. This used to be my go-to playlist for " +
             "Catan nights. All the songs on here probably aren't technically Nu Disco, but whatever.",
         "spotifyURI": "46f2239OVXKD9HnpICvQXJ",
-        "tags": []
+        "tags": [1,2,3,4,11]
     },
     {
         "id": 4,
@@ -34,7 +34,7 @@ const playlists = [
             " language indie artists. There is no reggaeton here just alternative rock and electronica. Even if" +
             " you don't understand Spanish you should be able to apreciate the music.",
         "spotifyURI": "1JUsfGt8gnZvPh1R6pxGUj",
-        "tags": []
+        "tags": [1,2,3,4,17,18]
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@ const playlists = [
         "description": "Indie pop and soft alternative with (mostly) female singers. Featuring a ton of Clairo," +
             " Tennis, Sales, and Alvvays. This is the ultimate playlist when you just want to loaf around and feel a bit sappy.",
         "spotifyURI": "0MQyd5CqJgD8HZBSFVYZDQ",
-        "tags": []
+        "tags": [1,2,11]
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@ const playlists = [
             " long car ride to a cabin, this playlist contains a mix of trippy type song from a mix of genres." +
             " Featuring Childish Gambino, Tame Impala, Zhu, Toro y Moi, and Rufus du Sol. ",
         "spotifyURI": "36zI0hvONVB6iBuO3l0ayb",
-        "tags": []
+        "tags": [1,2,3,4,5,6,7,8,10,16]
     },
     {
         "id": 7,
@@ -60,14 +60,14 @@ const playlists = [
             " Culture, STRFKR, Crumb and Goth Babe. Basically a bunch of trip rock. Part of an ongoing series to" +
             " track my music taste over time.",
         "spotifyURI": "4IUwFxEbSoaNA6Kch7Z6Ya",
-        "tags": []
+        "tags": [1,2,3,4,8,9,10,11,15,16]
     },
     {
         "id": 8,
         "name": "Real Estate",
         "description": "Beach bum rock. The first large playlist that I made which I actively add to. As the name suggests ",
         "spotifyURI": "1iPgUZs2cDBIBCCmZ0OAbf",
-        "tags": []
+        "tags": [1,2,3,8]
     },
     {
         "id": 9,
@@ -76,7 +76,7 @@ const playlists = [
             " Kaytranada, Blood Orange, and Tierra Whack then added songs that fit the vibe. Indie Rap," +
             " Alternative, and Electronic music with a little something to it.",
         "spotifyURI": "2lpqCtzM3iOm4Ir4bQQaoq",
-        "tags": []
+        "tags": [1,2,3,4,5,6,7,8,10,16]
     },
     {
         "id": 10,
@@ -85,7 +85,7 @@ const playlists = [
             " Laid back music that when you listen will make you think, \"yeah I can see it being in a playlist" +
             " titled 'If Air was Water'\"",
         "spotifyURI": "3re04r7G3gl06MCuu8WRBS",
-        "tags": []
+        "tags": [1,2,3,4,10,11,16]
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@ const playlists = [
         "description": "Bass House. Pretty straight forward. This genre dominated my life for about a year and this" +
             " playlist has become my go-to for working out or running.",
         "spotifyURI": "3UluunZqq1klH9hAevCnRi",
-        "tags": []
+        "tags": [12,20,13,14]
     },
     {
         "id": 12,
@@ -101,7 +101,7 @@ const playlists = [
         "description": "What was originally a playlist of Dirty Bird artists eventually became general Tech House one." +
             " Featuring the likes of Fisher, Chris Lake, Shiba San, and Mike McFly. Listen if you are trying to party.",
         "spotifyURI": "2ESzfb9M9oMxZ5gquunBJ7",
-        "tags": []
+        "tags": [12,20]
     },
     {
         "id": 13,
@@ -110,7 +110,7 @@ const playlists = [
             " it, this playlist is a whole lot of Nicola Cruz and Matanza. If you don't know what Organica is," +
             " I would describe it as a mix between techno and house with live and unique instruments.",
         "spotifyURI": "0JuZN0evYbDFmuSNiYublA",
-        "tags": []
+        "tags": [1,4,20,15,16]
     },
     {
         "id": 14,
@@ -118,7 +118,7 @@ const playlists = [
         "description": "Mellow songs, duh. Indie alternative and electronic songs that make you want to lay in a" +
             " hammock for a while. Featuring a good bit of Caribou, Maribou State, and Poolside.",
         "spotifyURI": "1UguGUOXt5ARtRJWF92AmI",
-        "tags": []
+        "tags": [1,2,3,4,6,7,10,11,16]
     },
     {
         "id": 15,
@@ -126,14 +126,14 @@ const playlists = [
         "description": "A random mix of soft alternative/pop with chill house. Started out as a playlist of chill" +
             " songs that I like for me to sort later, but I found it was a really good mixture. ",
         "spotifyURI": "1PDeegjvwLNXdeiR9o2Hlh",
-        "tags": []
+        "tags": [1,2,3,4,10,11,20]
     },
     {
         "id": 16,
         "name": "Washed Feelings",
         "description": "A collection of Bedroom pop and electronic music with vocals with heavy reverb. Think artists like Washed Out, thus the name.",
         "spotifyURI": "3HWQGKvnb3kAQq33gMpUtl",
-        "tags": []
+        "tags": [1,2,3,4,8,10,16]
     },
     {
         "id": 17,
@@ -142,7 +142,7 @@ const playlists = [
             " like Polo & Pan, Parcels, L'Impératrice, and Paradis. Nu Disco type music with a mix of what Spotify" +
             " calls Indie Soul.",
         "spotifyURI": "5p871wKWecFYHjvKhJJI1j",
-        "tags": []
+        "tags": [1,2,4,11,19]
     },
 ];
 

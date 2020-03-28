@@ -4,68 +4,80 @@ const tags = [
         "name": "Chill"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Indie"
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "Alternative"
     },
     {
-        "id": 1,
+        "id": 4,
         "name": "Indietronica"
     },
     {
-        "id": 1,
+        "id": 5,
         "name": "Indie Rap"
     },
     {
-        "id": 1,
+        "id": 6,
         "name": "Soulful"
     },
     {
-        "id": 1,
+        "id": 7,
         "name": "Alternative R&B"
     },
     {
-        "id": 1,
+        "id": 8,
         "name": "Trip Rock"
     },
     {
-        "id": 1,
+        "id": 9,
         "name": "Me over time"
     },
     {
-        "id": 1,
+        "id": 10,
         "name": "Synth"
     },
     {
-        "id": 1,
+        "id": 11,
         "name": "Indie Pop"
     },
     {
-        "id": 1,
+        "id": 12,
         "name": "Not Chill"
     },
     {
-        "id": 1,
+        "id": 20,
         "name": "House"
     },
     {
-        "id": 1,
+        "id": 13,
         "name": "Bass House"
     },
     {
-        "id": 1,
+        "id": 14,
         "name": "Bass"
     },
     {
-        "id": 1,
+        "id": 15,
         "name": "Organica"
     },
     {
-        "id": 1,
+        "id": 16,
         "name": "Wavy"
+    },
+    {
+        "id": 17,
+        "name": "Foreign Language"
+    },
+    {
+        "id": 18,
+        "name": "Spanish"
+    },
+    {
+        "id": 19,
+        "name": "French"
     },
 ];
 
