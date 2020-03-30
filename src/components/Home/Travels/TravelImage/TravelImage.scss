@@ -1,5 +1,12 @@
 .nji-main .nji-travel-image {
   position: relative;
+  height: 100%;
+  span {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
 
   &:hover .overlay {
     opacity: .5;

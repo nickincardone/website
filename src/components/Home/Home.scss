@@ -25,6 +25,10 @@
     padding-right: 25px;
   }
 
+  div[role=tabpanel] .MuiGrid-spacing-xs-5 > .MuiGrid-item {
+    padding: 15px;
+  }
+
   @media (max-width: 600px) {
     .MuiBox-root {
       padding-left: 10px;
@@ -33,9 +37,6 @@
     padding-top: 20px;
     hr {
       margin-top: 30px;
-    }
-    div[role=tabpanel] .MuiGrid-spacing-xs-5 > .MuiGrid-item {
-      padding: 15px;
     }
   }
 }

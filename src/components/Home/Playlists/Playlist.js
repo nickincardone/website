@@ -10,8 +10,8 @@ const playlist = (props) => {
 
     function Iframe(uri) {
         return (
-            <Grid item sm={4} >
-                <div className="nji-relative">
+            <Grid item sm={12} md={4} >
+                <div className="nji-relative" style={{height: "100%"}}>
                     <Skeleton variant="rect" animation="wave"/>
                     <iframe src={"https://open.spotify.com/embed/playlist/" + uri} width="300"
                             height="380" frameBorder="0" allowTransparency="true"
@@ -24,7 +24,7 @@ const playlist = (props) => {
 
     function hiddenOnXs(uri) {
         return (
-            <Hidden xsDown>
+            <Hidden smDown>
                 {Iframe(uri)}
             </Hidden>
         )
@@ -32,7 +32,7 @@ const playlist = (props) => {
 
     function showOnXs(uri) {
         return (
-            <Hidden smUp>
+            <Hidden mdUp>
                 {Iframe(uri)}
             </Hidden>
         )
@@ -52,7 +52,7 @@ const playlist = (props) => {
     return (
         <React.Fragment>
             {props.even ? Iframe(props.playlist.spotifyURI) : showOnXs(props.playlist.spotifyURI)}
-            <Grid item sm={8} className="nji-relative">
+            <Grid item sm={12} md={8} className="nji-relative">
                 <Typography variant="h4">{props.playlist.name}</Typography>
                 <Typography variant="body1">{props.playlist.description}</Typography>
                 <Grid container className="nji-playlists-chips">
