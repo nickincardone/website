@@ -11,8 +11,10 @@ const travelImage = (props) => {
         size = 4;
     } else if (props.image.type === 2) {
         size = 6;
+    } else if (props.image.type === 3) {
+        size = 12;
     } else {
-        size = 12
+        size = 8;
     }
 
     const innerGridItem = (
