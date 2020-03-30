@@ -65,7 +65,9 @@ const playlists = [
     {
         "id": 8,
         "name": "Real Estate",
-        "description": "Beach bum rock. The first large playlist that I made which I actively add to. As the name suggests ",
+        "description": "Beach bum rock. The first large playlist that I made which I actively add to. As the name" +
+            " suggests it is inspired the band Real Estate, but it also features many songs from Beach Fossils," +
+            " DIIV, Tame Impala, and Washed Out.",
         "spotifyURI": "1iPgUZs2cDBIBCCmZ0OAbf",
         "tags": [1,2,3,8]
     },

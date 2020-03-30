@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import {Email, GitHub} from "@material-ui/icons";
+import {Email} from "@material-ui/icons";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import './Resume.scss';
 import resumeData from '../../../resume';
