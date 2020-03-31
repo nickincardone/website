@@ -50,7 +50,7 @@ const experience = (props) => {
             <Typography variant="h6">Experience</Typography>
             <Stepper orientation="vertical" className="nji-resume-exp">
                 {generateExperience()}
-                <Step><StepLabel><br/><br/></StepLabel></Step>
+                {/*<Step><StepLabel><br/><br/></StepLabel></Step>*/}
             </Stepper>
         </React.Fragment>
 

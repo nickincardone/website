@@ -7,6 +7,10 @@
       color: black;
     }
 
+    div:last-child .MuiStepContent-root {
+      border: none;
+    }
+
     .MuiStepIcon-root {
       color: #EC7263;
       margin-top: -20px;
