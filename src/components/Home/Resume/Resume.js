@@ -22,7 +22,7 @@ const resume = (props) => {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid item sm={6}>
+            <Grid item sm={6} className="top-margin-mobile">
                 <Grid container>
                     <Grid item sm={12}>
                         <Typography variant="h6">Education</Typography>

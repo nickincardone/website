@@ -2,13 +2,18 @@
   .nji-resume-exp {
     background-color: inherit;
     padding: 20px 0 0;
-
+    @media (max-width: 600px) {
+      &.MuiPaper-root {
+        padding-top: 10px;
+        margin-left: -6px;
+      }
+    }
     h6 {
       color: black;
     }
 
     .MuiStepIcon-root {
-      color: #EC7263;
+      color: #ec7263;
       margin-top: -20px;
     }
 
@@ -24,6 +29,9 @@
 
     ul {
       margin-top: 0;
+      @media (max-width: 600px) {
+        padding-left: 17px;
+      }
     }
 
     .MuiStepIcon-root text {
@@ -51,9 +59,16 @@
   }
 
   h6 {
-    color: #EC7263;
+    color: #ec7263;
     text-transform: uppercase;
   }
+
+  @media (max-width: 600px) {
+    .top-margin-mobile {
+      margin-top: 10px;
+    }
+  }
+
   .nji-resume-other {
     div > ul > li::before {
       display: none;

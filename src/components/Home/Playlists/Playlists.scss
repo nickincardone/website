@@ -21,7 +21,7 @@
   }
 
   hr {
-    margin: 0px;
+    margin: 0;
   }
 
   .MuiSkeleton-root {
@@ -32,6 +32,15 @@
   @media (max-width: 600px) {
     .MuiGrid-item {
       margin-bottom: -20px;
+    }
+    .MuiGrid-grid-sm-12 {
+      width: 100%;
+    }
+    hr {
+      width: 100%;
+      height: 0px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
   }
 }

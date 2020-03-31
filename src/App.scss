@@ -39,6 +39,9 @@ html, body {
   background-color: #4B8188;
   min-height: 100%;
   padding: 20px;
+  @media (max-width: 600px) {
+    padding: 15px;
+  }
 }
 
 @keyframes App-logo-spin {
