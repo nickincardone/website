@@ -85,7 +85,7 @@ const playlists = [
         "name": "If air was water",
         "description": "I wish I had a better way to describe this playlist beside wavy, but that's what it is." +
             " Laid back music that when you listen will make you think, \"yeah I can see it being in a playlist" +
-            " titled 'If Air was Water'\"",
+            " titled 'If Air was Water' \"",
         "spotifyURI": "3re04r7G3gl06MCuu8WRBS",
         "tags": [1,2,3,4,10,11,16]
     },
