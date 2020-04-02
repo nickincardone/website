@@ -11,7 +11,7 @@ const playlist = (props) => {
   function Iframe(uri) {
     return (
       <Grid item sm={12} md={4}>
-        <div className="nji-relative" style={{ height: "100%" }}>
+        <div className="nji-relative" style={{ height: "100%", "min-height": "175px" }}>
           <Skeleton variant="rect" animation="wave"/>
           <iframe src={"https://open.spotify.com/embed/playlist/" + uri} width="300"
                   height="380" frameBorder="0" allowTransparency="true"
