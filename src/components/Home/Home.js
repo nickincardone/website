@@ -12,9 +12,14 @@ import Box from "@material-ui/core/Box";
 import Topper from "./Topper/Topper";
 import './Home.scss';
 import resumeData from  "../../resume";
+import { useLocation } from 'react-router-dom';
 
 function Home() {
+    const location = useLocation();
     const [value, setValue] = React.useState(0);
+    if (value !== 2 && location.hash === '#resume') {
+      setValue(2);
+    }
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
