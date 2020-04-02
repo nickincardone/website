@@ -20,6 +20,9 @@ function Home() {
     if (value !== 2 && location.hash === '#resume') {
       setValue(2);
     }
+    if (value !== 1 && location.hash === '#playlists') {
+      setValue(1);
+    }
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
