@@ -1,9 +1,10 @@
 .nji-main .nji-playlists {
   iframe {
-    bottom: 30px;
     height: 100%;
     width: 100%;
     min-height: 175px;
+    position: absolute;
+    top: 0;
   }
 
   h4 {
