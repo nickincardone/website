@@ -8,6 +8,7 @@
         margin-left: -6px;
       }
     }
+
     h6 {
       color: black;
     }
@@ -73,17 +74,22 @@
     div > ul > li::before {
       display: none;
     }
+
     ul {
       position: relative;
+
       li {
         position: relative;
+
         &:first-child::after {
           top: 10px;
         }
+
         &::before, &::after {
           content: "";
           position: absolute;
         }
+
         &::before {
           border-top: 1px solid #000;
           top: 11px;
@@ -91,6 +97,7 @@
           height: 0;
           left: -48px;
         }
+
         &::after {
           border-left: 1px solid #000;
           height: 100%;
@@ -98,12 +105,15 @@
           top: 2px;
           left: -15px;
         }
+
         &:last-child::after {
           height: 8px;
         }
+
         ul {
           position: relative;
           margin-left: -7px;
+
           li {
             &::after {
               display: none;
