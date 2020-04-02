@@ -1,22 +1,21 @@
 const playlists = [
     {
-        "id": 1,
-        "name": "Nick's Big Ass Chill Playlist",
-        "description": "Songs that I was really into the first two months of 2020 (before everything\n" +
-            "                    went wrong in the world). These months I was really into new music put out by Kaytranada, Tame\n" +
-            "                    Impala, and Nicola Cruz. Part of an ongoing series of playlist to keep track of my listening habits\n" +
-            "                    over time.",
-        "spotifyURI": "4VbUfHyNZhcCUBFzjdoYWN",
-        "tags": [1,2,3,4,5,6,7,8,10,11,16]
-    },
-    {
         "id": 2,
         "name": "Jan/Feb 2020",
-        "description": "Laidback songs that I was really into the first two months of the year (before everything went" +
-            " down the drain). Including new releases I loved from Tame Impala, Kaytranada, and Nicola Cruz. Part of an" +
+        "description": "Laidback songs that I was really into the first two months of the year (before covid-19 turned" +
+            " the world upside down). Including new releases I loved from Tame Impala, Kaytranada, and Nicola Cruz. Part of an" +
             " ongoing series to track my music taste over time.",
         "spotifyURI": "7DUatmUClN658xvmLgn4Hw",
         "tags": [1,2,3,4,8,9,10,11,15,16]
+    },
+    {
+        "id": 9,
+        "name": "Hungry Hippo",
+        "description": "A soulful alternative playlist spanning many genres. I basically started with songs from" +
+            " Kaytranada, Blood Orange, and Tierra Whack then added songs that fit the vibe. Indie Rap," +
+            " Alternative, and Electronic music with a little something to it.",
+        "spotifyURI": "2lpqCtzM3iOm4Ir4bQQaoq",
+        "tags": [1,2,3,4,5,6,7,8,10,16]
     },
     {
         "id": 3,
@@ -37,6 +36,34 @@ const playlists = [
         "tags": [1,2,3,4,17,18]
     },
     {
+        "id": 7,
+        "name": "Nov/Dec 2019",
+        "description": "Chill songs I jammed out to during the end of 2019. These months I was really into Blood" +
+            " Culture, STRFKR, Crumb and Goth Babe. Basically a bunch of trip rock. Part of an ongoing series to" +
+            " track my music taste over time.",
+        "spotifyURI": "4IUwFxEbSoaNA6Kch7Z6Ya",
+        "tags": [1,2,3,4,8,9,10,11,15,16]
+    },
+    {
+        "id": 10,
+        "name": "If air was water",
+        "description": "I wish I had a better way to describe this playlist beside wavy, but that's what it is." +
+            " Laid back music that when you listen will make you think, \"yeah I can see it being in a playlist" +
+            " titled 'If Air was Water' \"",
+        "spotifyURI": "3re04r7G3gl06MCuu8WRBS",
+        "tags": [1,2,3,4,10,11,16]
+    },
+    {
+        "id": 1,
+        "name": "Nick's Big Ass Chill Playlist",
+        "description": "Songs that I was really into the first two months of 2020 (before everything\n" +
+            "                    went wrong in the world). These months I was really into new music put out by Kaytranada, Tame\n" +
+            "                    Impala, and Nicola Cruz. Part of an ongoing series of playlist to keep track of my listening habits\n" +
+            "                    over time.",
+        "spotifyURI": "4VbUfHyNZhcCUBFzjdoYWN",
+        "tags": [1,2,3,4,5,6,7,8,10,11,16]
+    },
+    {
         "id": 5,
         "name": "Not so Secret",
         "description": "Indie pop and soft alternative with (mostly) female singers. Featuring a ton of Clairo," +
@@ -54,15 +81,6 @@ const playlists = [
         "tags": [1,2,3,4,5,6,7,8,10,16]
     },
     {
-        "id": 7,
-        "name": "Nov/Dec 2019",
-        "description": "Chill songs I jammed out to during the end of 2019. These months I was really into Blood" +
-            " Culture, STRFKR, Crumb and Goth Babe. Basically a bunch of trip rock. Part of an ongoing series to" +
-            " track my music taste over time.",
-        "spotifyURI": "4IUwFxEbSoaNA6Kch7Z6Ya",
-        "tags": [1,2,3,4,8,9,10,11,15,16]
-    },
-    {
         "id": 8,
         "name": "Real Estate",
         "description": "Beach bum rock. The first large playlist that I made which I actively add to. As the name" +
@@ -70,24 +88,6 @@ const playlists = [
             " DIIV, Tame Impala, and Washed Out.",
         "spotifyURI": "1iPgUZs2cDBIBCCmZ0OAbf",
         "tags": [1,2,3,8]
-    },
-    {
-        "id": 9,
-        "name": "Hungry Hippo",
-        "description": "A soulful alternative playlist spanning many genres. I basically started with songs from" +
-            " Kaytranada, Blood Orange, and Tierra Whack then added songs that fit the vibe. Indie Rap," +
-            " Alternative, and Electronic music with a little something to it.",
-        "spotifyURI": "2lpqCtzM3iOm4Ir4bQQaoq",
-        "tags": [1,2,3,4,5,6,7,8,10,16]
-    },
-    {
-        "id": 10,
-        "name": "If air was water",
-        "description": "I wish I had a better way to describe this playlist beside wavy, but that's what it is." +
-            " Laid back music that when you listen will make you think, \"yeah I can see it being in a playlist" +
-            " titled 'If Air was Water' \"",
-        "spotifyURI": "3re04r7G3gl06MCuu8WRBS",
-        "tags": [1,2,3,4,10,11,16]
     },
     {
         "id": 11,
