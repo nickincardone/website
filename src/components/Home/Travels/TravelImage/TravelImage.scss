@@ -10,7 +10,16 @@
     }
   }
 
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
+    &.show-overlay .overlay {
+      opacity: .5;
+    }
+    &.show-overlay .text-overlay {
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 601px) {
     &:hover .overlay {
       opacity: .5;
     }

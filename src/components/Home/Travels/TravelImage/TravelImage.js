@@ -5,39 +5,60 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Hidden } from "@material-ui/core";
 
-const travelImage = (props) => {
-  let size = 4;
-  if (props.image.type === 1) {
-    size = 4;
-  } else if (props.image.type === 2) {
-    size = 6;
-  } else if (props.image.type === 3) {
-    size = 12;
-  } else {
-    size = 8;
-  }
+class TravelImage  extends React.Component {
+  size = 4;
+  constructor(props) {
+    super(props);
+    this.state = {
+      class: 'show-overlay',
+      size: 4
+    };
 
-  const innerGridItem = (
-    <Grid item sm={size}>
-      <div className="nji-travel-image">
-        <LazyLoadImage alt={props.image.location + ": " + props.image.altText} src={props.image.src}
-                       effect="blur"/>
-        {/*<img alt={props.image.location + ": " + props.image.altText} src={props.image.src}/>*/}
-        <div className="overlay"></div>
-        <div className="overlay text-overlay">
-          <div className="alt-text">{props.image.altText}</div>
-          <div className="location">{props.image.location}</div>
-        </div>
-      </div>
-    </Grid>
-  );
+    if (props.image.type === 1) {
+      this.state.size = 4;
+    } else if (props.image.type === 2) {
+      this.state.size = 6;
+    } else if (props.image.type === 3) {
+      this.state.size = 12;
+    } else {
+      this.state.size = 8;
+    }
+  };
 
-  if (size === 12) {
+  handleClick = () => {
+    this.setState((oldState, props) => {
+      if (oldState.class !== '') {
+        return { class: ''};
+      } else {
+        return { class: 'show-overlay'};
+      }
+    });
+  };
+
+  innerGridItem = () => {
     return (
-      <Hidden xsDown>{innerGridItem}</Hidden>
-    )
-  }
-  return innerGridItem;
-};
+      <Grid item sm={this.state.size} onClick={this.handleClick}>
+        <div className={"nji-travel-image " + this.state.class}>
+          <LazyLoadImage alt={this.props.image.location + ": " + this.props.image.altText} src={this.props.image.src}
+                         effect="blur"/>
+          <div className="overlay"></div>
+          <div className="overlay text-overlay">
+            <div className="alt-text">{this.props.image.altText}</div>
+            <div className="location">{this.props.image.location}</div>
+          </div>
+        </div>
+      </Grid>
+    );
+  };
 
-export default travelImage;
+  render() {
+    if (this.state.size === 12) {
+      return (
+        <Hidden xsDown>{this.innerGridItem()}</Hidden>
+      )
+    }
+    return this.innerGridItem();
+  }
+}
+
+export default TravelImage;
