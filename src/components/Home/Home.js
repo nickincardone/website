@@ -13,6 +13,7 @@ import Topper from "./Topper/Topper";
 import './Home.scss';
 import resumeData from "../../resume";
 import { useLocation } from 'react-router-dom';
+import Portfolio from './Portfolio/Portfolio';
 
 function Home() {
   const location = useLocation();
@@ -69,6 +70,7 @@ function Home() {
           <Tab label="Travel" {...a11yProps(0)} />
           <Tab label="Playlists" {...a11yProps(1)} />
           <Tab label="Resume" {...a11yProps(2)} />
+          {/*<Tab label="Portfolio" {...a11yProps(3)} />*/}
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -79,6 +81,9 @@ function Home() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Resume resume={resumeData}/>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        <Portfolio/>
       </TabPanel>
       <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website created
         by me with React. <a href="https://github.com/nickincardone/website">See the
