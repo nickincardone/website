@@ -1,0 +1,23 @@
+.nji-main .nji-portfolio {
+  margin-bottom: 20px;
+
+  .MuiTypography-h5 {
+    color: #DE7C79;
+  }
+
+  svg {
+    color: black;
+  }
+
+  .MuiCard-root {
+    height: 100%;
+    position: relative;
+    padding-bottom: 30px;
+  }
+
+  .MuiCardActions-root {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
