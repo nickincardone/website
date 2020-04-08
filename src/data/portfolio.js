@@ -5,7 +5,7 @@ const portfolio = [
       "            from some JSON files",
     "image": "http://nickincardone.com/images/website.png",
     "githubLink": "https://github.com/nickincardone/website",
-    "demoLink": "http://nickincardone.com",
+    "demoLink": "#",
     "technologies": ['React']
   }, {
     "title": "Conjugator",
@@ -13,7 +13,7 @@ const portfolio = [
       "            larger Spanish App that I am working on.",
     "image": "http://nickincardone.com/images/conjugator.png",
     "githubLink": "https://github.com/nickincardone/poropara",
-    "demoLink": "",
+    "demoLink": "http://nickincardone.com/conjugator/",
     "technologies": ['React']
   }
 ];

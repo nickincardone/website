@@ -18,8 +18,10 @@ const portfolio = (props) => {
         return (
           <Grid item xs={12} md={6}>
             <Card>
-              <CardHeader title={portfolioItem.title}/>
-              <CardMedia image={portfolioItem.image}/>
+              <a href={portfolioItem.demoLink}>
+                <CardHeader title={portfolioItem.title}/>
+                <CardMedia image={portfolioItem.image}/>
+              </a>
               <CardContent>{portfolioItem.description}</CardContent>
               <CardActions disableSpacing>
                 <a href={portfolioItem.githubLink}>
