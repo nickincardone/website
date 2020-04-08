@@ -17,7 +17,7 @@ import Portfolio from './Portfolio/Portfolio';
 
 function Home() {
   const location = useLocation();
-  const [value, setValue] = React.useState(3);
+  const [value, setValue] = React.useState(0);
   if (value !== 2 && location.hash === '#resume') {
     setValue(2);
   }
