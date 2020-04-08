@@ -11,7 +11,7 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Topper from "./Topper/Topper";
 import './Home.scss';
-import resumeData from "../../resume";
+import resumeData from "../../data/resume";
 import { useLocation } from 'react-router-dom';
 import Portfolio from './Portfolio/Portfolio';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import playlistsArray from "../../../playlists";
+import playlistsArray from "../../../data/playlists";
 import Playlist from "./Playlist";
 import './Playlists.scss';
 

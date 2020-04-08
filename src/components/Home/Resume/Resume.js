@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { Email } from "@material-ui/icons";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import './Resume.scss';
-import resumeData from '../../../resume';
+import resumeData from '../../../data/resume';
 import Experience from "./Experience/Experience";
 import OtherSkills from "./OtherSkills/OtherSkills";
 
