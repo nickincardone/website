@@ -57,7 +57,7 @@ function Home() {
       <Grid container className="nji-topper" spacing={5}>
         <Topper/>
       </Grid>
-      <hr/>
+      <hr className="nji-topper-hr"/>
       <AppBar className="nji-main-tab" position="static" color="default" variant="outlined">
         <Tabs
           value={value}
