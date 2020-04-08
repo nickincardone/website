@@ -10,7 +10,7 @@ class TravelImage  extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      class: 'show-overlay',
+      class: '',
       size: 4
     };
 
