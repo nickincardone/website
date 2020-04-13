@@ -23,7 +23,10 @@ const portfolio = (props) => {
                 <CardMedia image={portfolioItem.image}/>
               </a>
               <CardContent>{portfolioItem.description}</CardContent>
-              <CardActions disableSpacing>
+              <CardActions disableSpacing className="left-card">
+                <div>{portfolioItem.technologies.join(', ')}</div>
+              </CardActions>
+              <CardActions disableSpacing className="right-card">
                 <a href={portfolioItem.githubLink}>
                   <IconButton aria-label="go to repo">
                     <GitHub/>

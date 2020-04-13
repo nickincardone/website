@@ -26,6 +26,11 @@
   }
 
   @media (max-width: 600px) {
+    .nji-main-tab {
+      button:first-child {
+        padding-left: 0px;
+      }
+    }
     .MuiBox-root {
       padding-left: 10px;
       padding-right: 10px;

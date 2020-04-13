@@ -21,7 +21,15 @@
     padding-bottom: 30px;
   }
 
-  .MuiCardActions-root {
+  .left-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    color: #9a9a9a;
+  }
+
+  .right-card {
     position: absolute;
     bottom: 0;
     right: 0;
