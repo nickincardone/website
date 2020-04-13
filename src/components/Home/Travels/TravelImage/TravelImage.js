@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Hidden } from "@material-ui/core";
 
-class TravelImage  extends React.Component {
+class TravelImage extends React.Component {
   size = 4;
   constructor(props) {
     super(props);
