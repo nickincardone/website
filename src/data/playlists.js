@@ -1,11 +1,11 @@
 const playlists = [
     {
-        "id": 2,
-        "name": "Jan/Feb 2020",
-        "description": "Laidback songs that I was really into the first two months of the year (before covid-19 turned" +
-            " the world upside down). Including new releases I loved from Tame Impala, Kaytranada, and Nicola Cruz. Part of an" +
-            " ongoing series to track my music taste over time.",
-        "spotifyURI": "7DUatmUClN658xvmLgn4Hw",
+        "id": 18,
+        "name": "Mar/Apr 2020",
+        "description": "Chill songs that I liked in March/April 2020, while I was stuck quarantining in Atlanta." +
+          " Including multiple songs from Bella Boo and a band called Sniffle Party which has only ever put out 3 " +
+          "songs and I love all of them. Sniffle Party if you are reading this, please put out new music.",
+        "spotifyURI": "7Hj6pBxVOMSLuJ3myBZUho",
         "tags": [1,2,3,4,8,9,10,11,15,16]
     },
     {
@@ -16,6 +16,15 @@ const playlists = [
             " Alternative, and Electronic music with a little something to it.",
         "spotifyURI": "2lpqCtzM3iOm4Ir4bQQaoq",
         "tags": [1,2,3,4,5,6,7,8,10,16]
+    },
+    {
+        "id": 2,
+        "name": "Jan/Feb 2020",
+        "description": "Laidback songs that I was really into the first two months of the year (before covid-19 turned" +
+          " the world upside down). Including new releases I loved from Tame Impala, Kaytranada, and Nicola Cruz. Part of an" +
+          " ongoing series to track my music taste over time.",
+        "spotifyURI": "7DUatmUClN658xvmLgn4Hw",
+        "tags": [1,2,3,4,8,9,10,11,15,16]
     },
     {
         "id": 3,
