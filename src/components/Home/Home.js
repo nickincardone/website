@@ -79,8 +79,8 @@ class Home extends React.Component {
           >
             <Tab label="Travel" {...this.a11yProps(0)} />
             <Tab label="Playlists" {...this.a11yProps(1)} />
-            <Tab label="Resume" {...this.a11yProps(2)} />
-            <Tab label="Projects" {...this.a11yProps(3)} />
+            {/*<Tab label="Resume" {...this.a11yProps(2)} />*/}
+            <Tab label="Projects" {...this.a11yProps(2)} />
           </Tabs>
         </AppBar>
         <TabPanel value={this.state.tabValue} index={0}>
@@ -89,10 +89,10 @@ class Home extends React.Component {
         <TabPanel className="nji-playlists" value={this.state.tabValue} index={1}>
           <Playlists/>
         </TabPanel>
+        {/*<TabPanel value={this.state.tabValue} index={2}>*/}
+        {/*  <Resume resume={resumeData}/>*/}
+        {/*</TabPanel>*/}
         <TabPanel value={this.state.tabValue} index={2}>
-          <Resume resume={resumeData}/>
-        </TabPanel>
-        <TabPanel value={this.state.tabValue} index={3}>
           <Portfolio/>
         </TabPanel>
         <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website
