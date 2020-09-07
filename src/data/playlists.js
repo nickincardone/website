@@ -1,5 +1,52 @@
 const playlists = [
     {
+        "id": 22,
+        "name": "Jul/Aug 2020",
+        "description": "Chill songs that I liked in July/August 2020, during my first few months in Chicago (though quarantining). " +
+        "Featuring SALES, Four Tet, and Crooked Colours.",
+        "spotifyURI": "1MiJmWlTfFR4Fk1aPXfu5q",
+        "tags": [1,2,3,4,8,9,10,11,15,16]
+    },
+    {
+        "id": 1,
+        "name": "Nick's Big Ass Chill Playlist",
+        "description": "1400+ songs of chill. It'll be hard not to find a song you like.",
+        "spotifyURI": "4VbUfHyNZhcCUBFzjdoYWN",
+        "tags": [1,2,3,4,5,6,7,8,10,11,16]
+    },
+    {
+        "id": 21,
+        "name": "May/Jun 2020",
+        "description": "Songs that I liked in May/June 2020, while I was moving from Atlanta to Chicago. Featuring Banes World," +
+        " HOMESHAKE, and Sugar Candy Mountain.",
+        "spotifyURI": "2fToASiD79qbrDKUuR87FJ",
+        "tags": [1,2,3,4,8,9,10,11,15,16]
+    },
+    {
+        "id": 20,
+        "name": "Como Aqua",
+        "description": "An updated version of my Alternativo playlist with more recent songs. Songs in Spanish" +
+        " that you can appreciate even if you don't speak the language.",
+        "spotifyURI": "20cbLfwosemNegQQbwgkH3",
+        "tags": [1,2,3,4,11,17,18]
+    },
+    {
+        "id": 19,
+        "name": "2020 Boat Party",
+        "description": "Deep/Pop house meant to be enjoyed on a boat with all of your friends. Built for a day on Lake Michigan.",
+        "spotifyURI": "0o3UffoZVR1gA188Tp28Ih",
+        "tags": [1,4,20]
+    },
+    {
+        "id": 3,
+        "name": "Nu Disco",
+        "description": "Chill indie tracks inspired by the likes of the three Ps: Parcels, Polo & Pan and Poolside " +
+            "(ok maybe 4). Great for lounging around the house or a pool. This used to be my go-to playlist for " +
+            "Catan nights. All the songs on here probably aren't technically Nu Disco, but whatever, it's a vibe.",
+        "spotifyURI": "46f2239OVXKD9HnpICvQXJ",
+        "tags": [1,2,3,4,11]
+    },
+    {
         "id": 18,
         "name": "Mar/Apr 2020",
         "description": "Chill songs that I liked in March/April 2020, while I was stuck quarantining in Atlanta." +
@@ -27,15 +74,6 @@ const playlists = [
         "tags": [1,2,3,4,8,9,10,11,15,16]
     },
     {
-        "id": 3,
-        "name": "Nu Disco",
-        "description": "Chill indie tracks inspired by the likes of the three Ps: Parcels, Polo & Pan and Poolside " +
-            "(ok maybe 4). Great for lounging around the house or a pool. This used to be my go-to playlist for " +
-            "Catan nights. All the songs on here probably aren't technically Nu Disco, but whatever.",
-        "spotifyURI": "46f2239OVXKD9HnpICvQXJ",
-        "tags": [1,2,3,4,11]
-    },
-    {
         "id": 4,
         "name": "Alternativo",
         "description": "Created this playlist when I started learning Spanish as I discovered more and more Spanish" +
@@ -61,16 +99,6 @@ const playlists = [
             " titled 'If Air was Water' \"",
         "spotifyURI": "3re04r7G3gl06MCuu8WRBS",
         "tags": [1,2,3,4,10,11,16]
-    },
-    {
-        "id": 1,
-        "name": "Nick's Big Ass Chill Playlist",
-        "description": "Songs that I was really into the first two months of 2020 (before everything\n" +
-            "                    went wrong in the world). These months I was really into new music put out by Kaytranada, Tame\n" +
-            "                    Impala, and Nicola Cruz. Part of an ongoing series of playlist to keep track of my listening habits\n" +
-            "                    over time.",
-        "spotifyURI": "4VbUfHyNZhcCUBFzjdoYWN",
-        "tags": [1,2,3,4,5,6,7,8,10,11,16]
     },
     {
         "id": 5,
