@@ -1,9 +1,9 @@
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
+import Grid from "@mui/material/Grid";
 import "./TravelImage.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { Hidden } from "@material-ui/core";
+import { Hidden } from "@mui/material";
 
 class TravelImage extends React.Component {
   size = 4;

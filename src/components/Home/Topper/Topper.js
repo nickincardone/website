@@ -1,8 +1,8 @@
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
+import Grid from "@mui/material/Grid";
 import profilePic from "../../../images/prof.jpg";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
 import "./Topper.scss";
 
 const topper = (props) => {

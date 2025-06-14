@@ -1,12 +1,12 @@
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
-import { Card } from '@material-ui/core';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import IconButton from '@material-ui/core/IconButton';
-import { GitHub } from '@material-ui/icons';
+import Grid from "@mui/material/Grid";
+import { Card } from '@mui/material';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import IconButton from '@mui/material/IconButton';
+import { GitHub } from '@mui/icons-material';
 import './Portfolio.scss';
 import portfolioData from '../../../data/portfolio';
 

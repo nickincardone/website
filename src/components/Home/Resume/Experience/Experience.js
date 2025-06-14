@@ -1,11 +1,11 @@
 import React from 'react';
-import StepLabel from "@material-ui/core/StepLabel";
-import Typography from "@material-ui/core/Typography";
-import StepContent from "@material-ui/core/StepContent";
-import Step from "@material-ui/core/Step";
-import { Stepper } from "@material-ui/core";
+import StepLabel from "@mui/material/StepLabel";
+import Typography from "@mui/material/Typography";
+import StepContent from "@mui/material/StepContent";
+import Step from "@mui/material/Step";
+import { Stepper } from "@mui/material";
 import './Experience.scss';
-import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const experience = (props) => {
 

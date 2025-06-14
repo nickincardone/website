@@ -1,19 +1,19 @@
-import React from 'react';
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import AppBar from "@material-ui/core/AppBar";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
+import React, { useState, useEffect } from "react";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import AppBar from "@mui/material/AppBar";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 import Travels from "./Travels/Travels";
 import Playlists from "./Playlists/Playlists";
 import Resume from "./Resume/Resume";
-import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 import Topper from "./Topper/Topper";
 import './Home.scss';
 import resumeData from "../../data/resume";
 import Portfolio from './Portfolio/Portfolio';
-import { withRouter } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -32,76 +32,70 @@ function TabPanel(props) {
   );
 }
 
-class Home extends React.Component {
+function Home() {
+  const location = useLocation();
+  const [tabValue, setTabValue] = useState(0);
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      tabValue: 0
-    };
-    if (props.location.hash === '#playlists') {
-      this.state.tabValue = 1;
+  useEffect(() => {
+    if (location.hash === '#playlists') {
+      setTabValue(1);
+    } else if (location.hash === '#resume') {
+      setTabValue(2);
+    } else if (location.hash === '#projects') {
+      setTabValue(3);
     }
-    if (props.location.hash === '#resume') {
-      this.state.tabValue = 2;
-    }
-    if (props.location.hash === '#projects') {
-      this.state.tabValue = 3;
-    }
-  }
+  }, [location]);
 
-  handleChange = (event, newValue) => {
-    this.setState({ tabValue: newValue });
+  const handleChange = (event, newValue) => {
+    setTabValue(newValue);
   };
 
-  a11yProps(index) {
+  const a11yProps = (index) => {
     return {
       id: `full-width-tab-${index}`,
       'aria-controls': `full-width-tabpanel-${index}`,
     };
-  }
-
-  render() {
-    return (
-      <Container maxWidth="md" className="nji-main">
-        <Grid container className="nji-topper" spacing={5}>
-          <Topper/>
-        </Grid>
-        <hr className="nji-topper-hr"/>
-        <AppBar className="nji-main-tab" position="static" color="default" variant="outlined">
-          <Tabs
-            value={this.state.tabValue}
-            onChange={this.handleChange}
-            indicatorColor="primary"
-            textColor="primary"
-            variant="fullWidth"
-            aria-label="full width tabs example"
-          >
-            <Tab label="Travel" {...this.a11yProps(0)} />
-            <Tab label="Playlists" {...this.a11yProps(1)} />
-            {/*<Tab label="Resume" {...this.a11yProps(2)} />*/}
-            <Tab label="Projects" {...this.a11yProps(2)} />
-          </Tabs>
-        </AppBar>
-        <TabPanel value={this.state.tabValue} index={0}>
-          <Travels/>
-        </TabPanel>
-        <TabPanel className="nji-playlists" value={this.state.tabValue} index={1}>
-          <Playlists/>
-        </TabPanel>
-        {/*<TabPanel value={this.state.tabValue} index={2}>*/}
-        {/*  <Resume resume={resumeData}/>*/}
-        {/*</TabPanel>*/}
-        <TabPanel value={this.state.tabValue} index={2}>
-          <Portfolio/>
-        </TabPanel>
-        <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website
-          created
-          by me with React. <a href="https://github.com/nickincardone/website">See the
-            code</a>.</Typography>
-      </Container>
-    )
   };
+
+  return (
+    <Container maxWidth="md" className="nji-main">
+      <Grid container className="nji-topper" spacing={5}>
+        <Topper/>
+      </Grid>
+      <hr className="nji-topper-hr"/>
+      <AppBar className="nji-main-tab" position="static" color="default" variant="outlined">
+        <Tabs
+          value={tabValue}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="fullWidth"
+          aria-label="full width tabs example"
+        >
+          <Tab label="Travel" {...a11yProps(0)} />
+          <Tab label="Playlists" {...a11yProps(1)} />
+          {/*<Tab label="Resume" {...a11yProps(2)} />*/}
+          <Tab label="Projects" {...a11yProps(2)} />
+        </Tabs>
+      </AppBar>
+      <TabPanel value={tabValue} index={0}>
+        <Travels/>
+      </TabPanel>
+      <TabPanel className="nji-playlists" value={tabValue} index={1}>
+        <Playlists/>
+      </TabPanel>
+      {/*<TabPanel value={tabValue} index={2}>*/}
+      {/*  <Resume resume={resumeData}/>*/}
+      {/*</TabPanel>*/}
+      <TabPanel value={tabValue} index={2}>
+        <Portfolio/>
+      </TabPanel>
+      <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website
+        created
+        by me with React. <a href="https://github.com/nickincardone/website">See the
+          code</a>.</Typography>
+    </Container>
+  );
 }
 
-export default withRouter(Home);
+export default Home;

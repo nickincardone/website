@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
+import Grid from "@mui/material/Grid";
 import images from "../../../data/images";
 import TravelImage from "./TravelImage/TravelImage";
 import "./Travels.scss";

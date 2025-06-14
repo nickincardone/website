@@ -1,8 +1,8 @@
 import React from 'react';
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import { Email } from "@material-ui/icons";
-import LinkedIn from "@material-ui/icons/LinkedIn";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import { Email } from "@mui/icons-material";
+import LinkedIn from "@mui/icons-material/LinkedIn";
 import './Resume.scss';
 import resumeData from '../../../data/resume';
 import Experience from "./Experience/Experience";
