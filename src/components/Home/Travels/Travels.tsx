@@ -6,6 +6,7 @@ import "./Travels.scss";
 
 const Travels: React.FC = () => {
   function generateImages() {
+    console.log(images);
     return images.map((image: Image) => (
       <TravelImage key={image.id} image={image} />
     ));

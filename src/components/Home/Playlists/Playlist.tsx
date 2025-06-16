@@ -4,8 +4,8 @@ import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Skeleton from "@mui/material/Skeleton";
 import { Hidden } from "@mui/material";
-import tagData, { Tag } from "../../../tags";
-import { Playlist as PlaylistType } from "../../../data/playlists";
+import tagData from "../../../tags";
+import type { Playlist as PlaylistType } from "../../../data/playlists";
 
 interface PlaylistProps {
   playlist: PlaylistType;
@@ -20,13 +20,13 @@ const Playlist: React.FC<PlaylistProps> = (props) => {
           className="nji-relative"
           style={{ height: "100%", minHeight: "175px" }}
         >
-          <Skeleton variant="rect" animation="wave" />
+          <Skeleton variant="rectangular" animation="wave" />
           <iframe
             src={"https://open.spotify.com/embed/playlist/" + uri}
             width="300"
             height="380"
             frameBorder="0"
-            allowTransparency="true"
+            allowTransparency={true}
             allow="encrypted-media"
             title={uri}
           />

@@ -11,6 +11,7 @@ import "./Portfolio.scss";
 import portfolioData, { PortfolioItem } from "../../../data/portfolio";
 
 const Portfolio: React.FC = () => {
+  console.log(portfolioData);
   return (
     <Grid className="nji-temp nji-portfolio" container spacing={5}>
       {portfolioData.map((portfolioItem: PortfolioItem) => (

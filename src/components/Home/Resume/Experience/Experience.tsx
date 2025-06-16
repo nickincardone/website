@@ -24,17 +24,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
   }
 
   function Job(props: { experience: ExperienceItem }) {
-    return (
-      <Step active={true}>
-        <StepLabel StepIconComponent={FiberManualRecordIcon}>
-          <Typography variant="h6">{props.experience.title}</Typography>
-          {props.experience.company} {props.experience.dates}
-        </StepLabel>
-        <StepContent>
-          <ul>{generateBullets(props.experience.bullets)}</ul>
-        </StepContent>
-      </Step>
-    );
+    return null;
+    //todo fix this to work with new mui stepper
+    // return (
+    //   <Step active={true}>
+    //     <StepLabel StepIconComponent={FiberManualRecordIcon}>
+    //       <Typography variant="h6">{props.experience.title}</Typography>
+    //       {props.experience.company} {props.experience.dates}
+    //     </StepLabel>
+    //     <StepContent>
+    //       <ul>{generateBullets(props.experience.bullets)}</ul>
+    //     </StepContent>
+    //   </Step>
+    // );
   }
 
   function generateExperience() {

@@ -6,12 +6,12 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Travels from "./Travels/Travels";
 import Playlists from "./Playlists/Playlists";
-// import Resume from "./Resume/Resume";
+import Resume from "./Resume/Resume";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Topper from "./Topper/Topper";
 import "./Home.scss";
-// import resumeData from "../../data/resume";
+import resumeData from "../../data/resume";
 import Portfolio from "./Portfolio/Portfolio";
 import { useLocation } from "react-router-dom";
 
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
         >
           <Tab label="Travel" {...a11yProps(0)} />
           <Tab label="Playlists" {...a11yProps(1)} />
-          {/*<Tab label="Resume" {...a11yProps(2)} />*/}
+          <Tab label="Resume" {...a11yProps(2)} />
           <Tab label="Projects" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
@@ -96,10 +96,10 @@ const Home: React.FC = () => {
       <TabPanel className="nji-playlists" value={tabValue} index={1}>
         <Playlists />
       </TabPanel>
-      {/*<TabPanel value={tabValue} index={2}>*/}
-      {/*  <Resume resume={resumeData}/>*/}
-      {/*</TabPanel>*/}
       <TabPanel value={tabValue} index={2}>
+       <Resume resume={resumeData}/>
+      </TabPanel>
+      <TabPanel value={tabValue} index={3}>
         <Portfolio />
       </TabPanel>
       <Typography

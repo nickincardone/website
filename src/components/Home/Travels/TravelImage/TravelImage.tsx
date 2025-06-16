@@ -4,7 +4,7 @@ import "./TravelImage.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { Hidden } from "@mui/material";
-import { Image } from "../../../../data/images";
+import type { Image } from "../../../../data/images";
 
 interface TravelImageProps {
   image: Image;
@@ -59,7 +59,7 @@ class TravelImage extends React.Component<TravelImageProps, TravelImageState> {
     );
   };
 
-  render() {
+  override render() {
     if (this.state.size === 12) {
       return <Hidden xsDown>{this.innerGridItem()}</Hidden>;
     }

@@ -1,6 +1,5 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import profilePic from "../../../images/prof.jpg";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import "./Topper.scss";
@@ -9,7 +8,7 @@ const Topper: React.FC = () => {
   return (
     <React.Fragment>
       <Grid item sm={4}>
-        <img alt="Me" src={profilePic} />
+        <img alt="Me" src="/prof.jpg" />
       </Grid>
       <Grid item sm={8}>
         <Paper className="nji-topper-header" variant="outlined">

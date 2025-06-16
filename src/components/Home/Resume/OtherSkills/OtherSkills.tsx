@@ -2,7 +2,7 @@ import React from "react";
 
 interface Skill {
   name: string;
-  subSkills: string[];
+  subSkills?: string[];
 }
 
 interface OtherSkillsProps {
@@ -22,7 +22,7 @@ const OtherSkills: React.FC<OtherSkillsProps> = (props) => {
     return (
       <li>
         <b>{props.skill.name}</b>
-        {generateInnerList(props.skill.subSkills)}
+        {props.skill.subSkills && generateInnerList(props.skill.subSkills)}
       </li>
     );
   }
