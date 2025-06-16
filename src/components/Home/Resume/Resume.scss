@@ -14,7 +14,7 @@
     }
 
     .MuiStepIcon-root {
-      color: #DE7C79;
+      color: #de7c79;
       margin-top: -20px;
     }
 
@@ -60,7 +60,7 @@
   }
 
   h6 {
-    color: #DE7C79;
+    color: #de7c79;
     text-transform: uppercase;
   }
 
@@ -85,7 +85,8 @@
           top: 10px;
         }
 
-        &::before, &::after {
+        &::before,
+        &::after {
           content: "";
           position: absolute;
         }

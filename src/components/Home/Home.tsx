@@ -6,16 +6,23 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Travels from "./Travels/Travels";
 import Playlists from "./Playlists/Playlists";
-import Resume from "./Resume/Resume";
+// import Resume from "./Resume/Resume";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Topper from "./Topper/Topper";
-import './Home.scss';
-import resumeData from "../../data/resume";
-import Portfolio from './Portfolio/Portfolio';
-import { useLocation } from 'react-router-dom';
+import "./Home.scss";
+// import resumeData from "../../data/resume";
+import Portfolio from "./Portfolio/Portfolio";
+import { useLocation } from "react-router-dom";
 
-function TabPanel(props) {
+interface TabPanelProps {
+  children?: React.ReactNode;
+  value: number;
+  index: number;
+  className?: string;
+}
+
+function TabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
 
   return (
@@ -32,38 +39,43 @@ function TabPanel(props) {
   );
 }
 
-function Home() {
+const Home: React.FC = () => {
   const location = useLocation();
-  const [tabValue, setTabValue] = useState(0);
+  const [tabValue, setTabValue] = useState<number>(0);
 
   useEffect(() => {
-    if (location.hash === '#playlists') {
+    if (location.hash === "#playlists") {
       setTabValue(1);
-    } else if (location.hash === '#resume') {
+    } else if (location.hash === "#resume") {
       setTabValue(2);
-    } else if (location.hash === '#projects') {
+    } else if (location.hash === "#projects") {
       setTabValue(3);
     }
   }, [location]);
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     setTabValue(newValue);
   };
 
-  const a11yProps = (index) => {
+  const a11yProps = (index: number) => {
     return {
       id: `full-width-tab-${index}`,
-      'aria-controls': `full-width-tabpanel-${index}`,
+      "aria-controls": `full-width-tabpanel-${index}`,
     };
   };
 
   return (
     <Container maxWidth="md" className="nji-main">
       <Grid container className="nji-topper" spacing={5}>
-        <Topper/>
+        <Topper />
       </Grid>
-      <hr className="nji-topper-hr"/>
-      <AppBar className="nji-main-tab" position="static" color="default" variant="outlined">
+      <hr className="nji-topper-hr" />
+      <AppBar
+        className="nji-main-tab"
+        position="static"
+        color="default"
+        variant="outlined"
+      >
         <Tabs
           value={tabValue}
           onChange={handleChange}
@@ -79,23 +91,27 @@ function Home() {
         </Tabs>
       </AppBar>
       <TabPanel value={tabValue} index={0}>
-        <Travels/>
+        <Travels />
       </TabPanel>
       <TabPanel className="nji-playlists" value={tabValue} index={1}>
-        <Playlists/>
+        <Playlists />
       </TabPanel>
       {/*<TabPanel value={tabValue} index={2}>*/}
       {/*  <Resume resume={resumeData}/>*/}
       {/*</TabPanel>*/}
       <TabPanel value={tabValue} index={2}>
-        <Portfolio/>
+        <Portfolio />
       </TabPanel>
-      <Typography className="nji-bottom-message" variant="subtitle2" component="div">Website
-        created
-        by me with React. <a href="https://github.com/nickincardone/website">See the
-          code</a>.</Typography>
+      <Typography
+        className="nji-bottom-message"
+        variant="subtitle2"
+        component="div"
+      >
+        Website created by me with React.{" "}
+        <a href="https://github.com/nickincardone/website">See the code</a>.
+      </Typography>
     </Container>
   );
-}
+};
 
 export default Home;

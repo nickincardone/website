@@ -12,7 +12,7 @@
 
   @media (max-width: 600px) {
     &.show-overlay .overlay {
-      opacity: .5;
+      opacity: 0.5;
     }
     &.show-overlay .text-overlay {
       opacity: 1;
@@ -21,7 +21,7 @@
 
   @media (min-width: 601px) {
     &:hover .overlay {
-      opacity: .5;
+      opacity: 0.5;
     }
     &:hover .text-overlay {
       opacity: 1;
@@ -38,7 +38,7 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: black;
   }
 
@@ -52,11 +52,12 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: inherit;
   }
 
-  .alt-text, .location {
+  .alt-text,
+  .location {
     color: white;
     font-size: 20px;
     position: absolute;
