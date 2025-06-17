@@ -1,14 +1,21 @@
 import React from "react";
-import "./App.scss";
+import { Box, ThemeProvider, CssBaseline } from "@mui/material";
+import theme from "./theme";
 import Home from "./components/Home/Home";
-import { BrowserRouter } from "react-router-dom";
 
-const App: React.FC = () => {
+// Import Roboto font from Google Fonts
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+
+export default function App() {
   return (
-    <BrowserRouter>
-      <Home />
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Box minHeight="100vh" sx={{ background: theme.palette.primary.main }}>
+        <Home />
+      </Box>
+    </ThemeProvider>
   );
-};
-
-export default App;
+}
