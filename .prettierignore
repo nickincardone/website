@@ -1,0 +1,38 @@
+# Ignore artifacts:
+dist
+build
+node_modules
+coverage
+
+# Ignore lock files:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files:
+.env
+.env.*
+
+# Ignore public static assets:
+public/
+
+# Ignore system files:
+.DS_Store
+*/.DS_Store
+
+# Ignore Vite config cache:
+.vite
+
+# Ignore log files:
+*.log
+
+# Ignore output from editors/IDEs:
+.vscode/
+.idea/
+
+# Ignore misc:
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ico 
