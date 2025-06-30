@@ -41,6 +41,16 @@ const resume = {
   },
   experience: [
     {
+      title: "Executive Producer & Collaborator ",
+      company: "Pineapple Cut Pictures",
+      dates: "08/2023-Present",
+      collapsed: true,
+      bullets: [
+        "Executive Producer on Thomasville (2024), Official Selection at 2024 Palm Springs Short Fest, Best Drama at 2024 San Jose International Short Film Festival",
+        "Executive Producer on Woodwork (Currently in Post Production)",
+      ],
+    },
+    {
       title: "Senior Fullstack Engineer",
       company: "SBLive Sports",
       dates: "06/2020-09/2024",

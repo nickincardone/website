@@ -34,7 +34,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
   return (
     <Box
       sx={{
-        width: getImageWidth(type),
+        width: { xs: "100%", sm: getImageWidth(type) },
         padding: 1,
         position: "relative",
         "&:hover .overlay": {

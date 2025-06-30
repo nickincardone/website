@@ -15,13 +15,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import portfolio from "../../data/portfolio";
 
 export default function Projects() {
+  console.log(portfolio);
   return (
-    <Box px={{ xs: 1, sm: 2 }} py={4}>
+    <Box px={{ xs: 1, sm: 2 }} py={4} bgcolor="#fff">
       <Box
         sx={{
           display: "grid",
           gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
           gap: 4,
+          background: "#fff",
         }}
       >
         {portfolio.map((project) => (
@@ -50,8 +52,7 @@ export default function Projects() {
               </Box>
               <Box
                 sx={{
-                  background:
-                    project.title === "Conjugator" ? "#e0f7fa" : "#e0ecee",
+                  background: "#e0ecee",
                   px: 2,
                   pt: 2,
                   pb: 0,
@@ -95,8 +96,8 @@ export default function Projects() {
                   justifyContent: "flex-end",
                   alignItems: "flex-end",
                   position: "absolute",
-                  right: 8,
-                  bottom: 8,
+                  right: 0,
+                  bottom: 0,
                   zIndex: 2,
                 }}
               >

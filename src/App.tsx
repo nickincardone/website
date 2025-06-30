@@ -13,7 +13,11 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box minHeight="100vh" sx={{ background: theme.palette.primary.main }}>
+      <Box
+        minHeight="100vh"
+        sx={{ background: theme.palette.primary.main }}
+        px={2}
+      >
         <Home />
       </Box>
     </ThemeProvider>

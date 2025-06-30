@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router";
 
 const tabs = [
   { label: "TRAVEL", path: "/travel" },
-  // { label: "PLAYLISTS", path: "/playlists" },
+  { label: "PLAYLISTS", path: "/playlists" },
   { label: "RESUME", path: "/resume" },
   { label: "PROJECTS", path: "/projects" },
 ];

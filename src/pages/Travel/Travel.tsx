@@ -1,6 +1,4 @@
-import React from "react";
-import { Box, Typography } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
+import { Box } from "@mui/material";
 import { images, Image } from "../../data/images";
 import ImageCard from "./components/ImageCard";
 
@@ -11,8 +9,9 @@ export default function Travel() {
         display: "flex",
         flexWrap: "wrap",
         padding: 0,
+        px: { xs: 1, sm: 2 },
         background: "#fff",
-        mx: -1,
+        mx: { xs: 0, sm: -1 },
       }}
     >
       {images.map((image: Image) => (

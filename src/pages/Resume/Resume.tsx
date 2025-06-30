@@ -159,7 +159,7 @@ function ExperienceItem({
 
 export default function Resume() {
   return (
-    <Box px={{ xs: 1, sm: 4, background: "#fff" }} py={4}>
+    <Box px={{ xs: 1, sm: 2, background: "#fff" }} py={4}>
       {/* Top Section: Contact & Education */}
       <Box
         sx={{
@@ -228,7 +228,7 @@ export default function Resume() {
               icon={<PictureAsPdf color="disabled" />}
               content={
                 <Link
-                  href="/Nichlos_Incardone_Resume.pdf"
+                  href="https://www.nickincardone.com/assets/Nichlos_Incardone_Resume.pdf"
                   target="_blank"
                   rel="noopener"
                   underline="hover"

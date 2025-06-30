@@ -7,21 +7,20 @@ import Travel from "../../pages/Travel/Travel";
 import theme from "../../theme";
 import Resume from "../../pages/Resume/Resume";
 import Projects from "../../pages/Projects/Projects";
-
-function Placeholder({ text }: { text: string }) {
-  return (
-    <Box mt={4} textAlign="center" sx={{ background: "#fff" }}>
-      <Typography variant="h4">{text}</Typography>
-    </Box>
-  );
-}
+import Playlists from "../../pages/Playlists/Playlists";
+import me from "../../assets/me.jpg";
 
 function ProfileHeader() {
   return (
-    <Box display="flex" alignItems="center" gap={6}>
+    <Box
+      display="flex"
+      alignItems="center"
+      gap={6}
+      flexDirection={{ xs: "column", sm: "row" }}
+    >
       <Avatar
-        src="/prof.jpg"
-        alt="Profile"
+        src="https://www.nickincardone.com/images/prof.jpg"
+        alt="Me"
         sx={{
           width: 280,
           height: 280,
@@ -33,7 +32,11 @@ function ProfileHeader() {
         }}
         variant="square"
       />
-      <Box>
+      <Box
+        sx={{ alignItems: { xs: "center", sm: "flex-start" } }}
+        flexDirection={"column"}
+        display={"flex"}
+      >
         <Typography variant="h2" mb={0.2} ml={-0.2}>
           Nick Incardone
         </Typography>
@@ -62,6 +65,7 @@ export default function Home() {
       sx={{
         background: "#fff",
         mt: 2.5,
+        mb: 4,
         borderRadius: 0,
         boxShadow: 0,
         borderWidth: 0,
@@ -81,10 +85,7 @@ export default function Home() {
         <Routes>
           <Route path="/" element={<Travel />} />
           <Route path="/travel" element={<Travel />} />
-          {/* <Route
-            path="/playlists"
-            element={<Placeholder text="Playlists Page" />}
-          /> */}
+          <Route path="/playlists" element={<Playlists />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
